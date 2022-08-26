@@ -1,3 +1,31 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
 form {
+    border: 9px solid red;
+    padding: 10px;
+    display: inline-block;
+}
+
+h1 {
+    margin: 0;
+}
+
+figure {
+    margin: 75px 0 0 0;
+}
+
+label, input {
     display: block;
+}
+
+header {
+    background-color: black;
+    color: red;
+    position: fixed;
+    width: 100%;
+    padding: 20px;
+    top: 0;
 }
